@@ -1,0 +1,224 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+}
+.navbar{
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width:250px;
+	left: 80%;
+	top: 20%;
+}
+.navbar a{
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 20px 0;
+	color: black;
+
+}
+.icon>div{
+	vertical-align: bottom;
+	display:inline-block;
+	margin-left: 5px;
+	width: 20px;
+	height: 20px;
+	border:2px solid black;
+	border-radius: 100%;
+	cursor: pointer;
+	transition-duration:.2s;
+	transition-timing-function: ease-in-out;
+}
+.active{
+	background-color: rgba(0,0,0,1) !important;
+	margin-left: 20px !important;
+	display: none;
+}
+#first{
+	min-height: 400px;
+    background: transparent;
+    height: 700px;
+}
+#first #greatings{
+	color: #FFE658;
+	text-align: center;
+	width: 40%;
+	margin: auto;
+    position:relative;
+    top:250px; 
+}
+#first #greatings h1{
+	padding-bottom: 15px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 65px;
+	font-weight:9999;
+}
+#first #greatings p{
+	font-family: 'Amatic SC', cursive;
+	font-size: 22px;
+}
+#second{
+	background-color: rgba(233,229,129,0.8);
+	height: 650px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.title{
+	width:100%;
+	text-align: center;
+}
+.title h1{
+	color:#7E8F7C;
+	font-size: 45px;
+	font-family: 'Frijole', cursive;
+}
+#second .img-section{
+	width: 30%;
+	min-width:210px; 
+	height: 250px;
+	min-height: 150px;
+	border: 2px solid #f6f6f6;
+	border-radius: 3px;
+}
+#second .img-section img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#third{
+	height: 500px;
+	min-height: 400px;
+    background: transparent;
+
+}
+#third #story{
+	margin: auto;
+	position: relative;
+	top: 100px;
+	width: 80%;
+	text-align: center;
+
+}
+#third #story h1{
+	padding-bottom: 25px;
+	font-size: 45px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: xx-large;
+}
+#third #story p{
+	font-size: 30px;
+	font-weight: xx-large;
+	font-family: 'Amatic SC', cursive;
+}
+#fourth{
+	border-top: 1px solid #f6f6f6;
+	border-bottom: 1px solid #f6f6f6;
+	height:600px;
+	background-color: #E9E581;
+}
+#fourth #weddinginfo {
+	width: 70%;
+	margin: auto;
+	position: relative;
+	top:60px;
+	text-align: center;
+}
+#fourth #weddinginfo h1{
+	font-size: 50px;
+	font-family: 'Holtwood One SC', serif;
+	padding: 50px;
+	color: #FF56E7;
+}
+#fourth #weddinginfo h2{
+	font-size: 40px;
+	font-family: 'Holtwood One SC', serif;
+	color: #191919;
+}
+#fourth #weddinginfo h2 span{
+	font-size: 45px;
+	font-family: 'Holtwood One SC', serif;
+	color: #FF56E7;
+}
+#fifth{
+	height:500px;
+	border-top:1px solid #f6f6f6;
+	min-height: 400px;
+    background: transparent;
+    color: #E9E581;
+    font-family: 'Dancing Script', cursive;
+}
+#fifth #contact{
+	width: 50%;
+	position: relative;
+	left: 25px;
+	top: 50px;
+}
+#fifth #contact input[type="text"],input[type="email"],textarea{
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	border:2px solid #E9E581;
+	border-radius: 10px;
+	color: #f6f6f6;
+	padding: 5px;
+	font-size: 22px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: 9999;
+}
+textarea{
+	height: 200px;
+}
+#fifth #contact>label{
+	position: relative;
+	top: 65px;
+}
+input[type="submit"]{
+	padding: 5px;
+	font-size: 40px;
+	margin-top: 30px;
+	border: 0px solid #E9E581;
+	border-radius: 5px;
+	cursor: pointer;
+	color:rgba(0,0,0,0.3);
+	background-color: #E9E581; 
+	font-family: 'Dancing Script', cursive;
+	transition-duration: .3s;
+}
+input[type="submit"]:active{
+	font-size: 30px;
+}
+#sixth{
+	height:100px;
+	background-color: #191919;
+	text-align: center;
+	vertical-align: bottom;
+	color: #FFF056;
+	border-top:1px solid #f6f6f6;
+}
+#sixth p,#sixth h3{
+	font-family: 'Oswald', sans-serif;
+	padding-top:5px; 
+}
+#totop{
+	display: none;
+	position: fixed;
+	width: 90px;
+	height: 90px;
+	top: 75%;
+	left: 90%;
+	cursor: pointer;
+	z-index: 999;
+}
+#totop a{
+	outline: none;
+}
+#totop img{
+		width: 100%;
+		height: 100%;
+	}

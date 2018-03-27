@@ -1,0 +1,170 @@
+
+@media(max-width: 1024px){
+	.navbar{
+		display: none;
+	}
+}
+@media(max-width: 768px){
+	#first{
+		height: 400px;
+	}
+	#first #greatings{
+		width: 50%;
+		top:100px;
+	}
+	#first #greatings h1{
+		font-size: 35px;
+	}
+	#first #greatings p{
+		font-size: 18px;
+		font-weight: 9999;
+	}
+	#second{
+		height: 600px;
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+	#second .img-section {
+		width: 220px;
+		height: 220px;
+	}
+	#third #story{
+		width: 60%;
+		top:50px;
+	}
+	#third #story h1{
+		font-size: 40px;
+	}
+	#third #story p{
+		font-size: 25px;
+		font-weight: 999;
+	}
+	#fourth{
+		height: 400px;
+
+	}
+	#fourth #weddinginfo{
+		width: 70%;
+		height: 400px;
+		top: 20px;
+	}
+	#fourth #weddinginfo h1{
+		padding: 10px;
+	}
+	#fifth #contact{
+		width: 90%;
+	}
+	
+	#totop{
+		top:81%;
+		left: 86%;
+	}
+}
+@media(max-width: 720px){
+	#second{
+		height: 780px;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		
+	}
+	.title h1{
+		font-size: 25px;
+	}
+	#second .img-section {
+		width: 310px;
+		height: 220px;
+	}
+	#fourth{
+		height: 400px;
+
+	}
+	#fourth #weddinginfo{
+		width: 70%;
+		height: 400px;
+		top: 20px;
+	}
+	#fourth #weddinginfo h1{
+		padding: 10px;
+	}
+	#totop{
+		top:80%;
+		left: 60%;
+	}
+}
+@media(max-width: 640px){
+	#second{
+		height: 780px;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		
+	}
+	.title h1{
+		font-size: 25px;
+	}
+	#second .img-section {
+		width: 280px;
+		height: 220px;
+	}
+	#third #story h1{
+		font-size: 40px;
+		padding-bottom: 15px;
+	}
+	#third #story p{
+		font-size: 23px;
+		font-weight: 999;
+	}
+	#fourth{
+		height: 400px;
+	}
+	#fourth #weddinginfo{
+		width: 60%;
+		margin:auto;
+	}
+	#fourth #weddinginfo h1{
+		font-size: 35px;
+		padding: 20px;
+	}
+	#totop{
+		width: 50px;
+		height: 50px;
+		top:73%;
+		left: 91%;
+	}
+	#totop img{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media(max-width: 580px){
+	#second{
+		height: 1300px;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		
+	}
+	.title h1{
+		font-size: 25px;
+	}
+	#second .img-section {
+		width: 80%;
+		height: 200px;
+	}
+	#third #story h1{
+		font-size: 35px;
+		padding-bottom: 10px;
+	}
+	#third #story p{
+		font-size: 20px;
+		font-weight: 999;
+	}
+	#fourth{
+		height: 400px;
+	}
+	#fourth #weddinginfo h2 span{
+		font-size: 25px;
+	}
+}
